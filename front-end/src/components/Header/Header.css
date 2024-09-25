@@ -1,0 +1,33 @@
+.header{
+    background: url('/header_img.png') no-repeat;
+
+    height: 34vw;
+    margin: 30px auto;
+    position: relative;
+}
+.header-content{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5vw;
+    max-width: 50%;
+    bottom: 10%;
+    left: 6vw;
+}
+.header-content h2{
+    font-weight: 500;
+    color: white;
+    font-size: max(3.5vw,22px);
+}
+.header-content p{
+    color:white;
+    font-size: 2.5vh;
+}
+.header-content button{
+    border: none;
+    padding: 15px;
+    border-radius:50px;
+    font-size:max(1wv,13px) ;
+    font-weight: 500;
+}
